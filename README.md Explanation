@@ -6,7 +6,7 @@ Increase minute and check if it is equal to 60 then increase hour and reset minu
 Increase hour and check if it is equal to 24 then reset hour to 0.
 
 Explanation: >>     In The first line we declare the required header file (stdio.h and windows.h)
-we declare windows.h because inside this many of of our c functions are declare thats why we declare.
+
 
 
 >>   
