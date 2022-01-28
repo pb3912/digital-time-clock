@@ -1,37 +1,8 @@
 # digital-time-clock
-Logic: Initialize hour, minute, seconds with 0.
+This program will generate a digital clock using c program. 
+The logic behind to implement this program is as follows:
+Initialize hour, minute, seconds with 0.
 Run an infinite loop.
 Increase second and check if it is equal to 60 then increase minute and reset second to 0.
 Increase minute and check if it is equal to 60 then increase hour and reset minute to 0.
 Increase hour and check if it is equal to 24 then reset hour to 0.
-
-Explanation: >>     In The first line we declare the required header file (stdio.h and windows.h)
-
-
-
->>   
-
-
->>   Next we declare our variable (H,M,S) H stands for Hour ,M stands for Minutes, and S stands for seconds.
-
-
->>   Then we declare a "d" variable for delay to 1000 mill seconds, after this we use the printf function to ask user to enter the time ,then by the help of scanf we takes the input.
-
-
->>   Then we make if conditional statement where we say that if user does not enter a valid time This will show an error and the program will terminate by the help of exit function.
-
-
->>   Next here run an infinite loop that that will show our Digital clock.
-
-
->>    In first condition we increment seconds ,then if user enter the second less than 59 we increment the Minutes and initialize the seconds in 0.
-
-
->>Then in the next condition we check that if the entered minutes is less than 59 increment the hour and initialize minutes into 0;
-
-
->>Then in the next condition we check that if the hour is less than 12 and initialize from 1.
-
-
->>Now we print the Time in the output screen and we use here clear screen in last because we want the updated time.
-
