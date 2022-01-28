@@ -1,3 +1,9 @@
+// MINI PROJECT USING 'C' LANGUAGE
+
+//DIGITAL TIME CLOCK 
+
+// PRATYUSH BEURA - RA2111009010243
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -31,3 +37,6 @@ int main(void){
 	getch();
 	return 0;
 }
+
+//INPUT in the form of HH MM SS 
+//OUTPUT will be updated as TIME CLOCK as per the input given by the user
