@@ -4,13 +4,13 @@
 
 int main(void){
 	
-	int h=0,m=0,s=0;
+	int h=0,m=0,s=0; //h is for hours m is for minutes s is for seconds
 	printf("Enter time in format of HH MM SS");
-	scanf("%d%d%d",&h,&m,&s);
+	scanf("%d%d%d",&h,&m,&s); //enter the numeric values in keyboard
 	
 	start:
 		for(h;h<=24;h++){
-			for(m;m<60;m++){
+			for(m;m<60;m++){       // using for loop concept
 				for(s;s<60;s++){
 					system("cls");//for clean screen
 					printf("\n\n\n\n\n\t\t\t\t\t\t\t\t %d:%d:%d",h,m,s);
